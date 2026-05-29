@@ -92,6 +92,3 @@ docker-compose up --build
 - Set `JWT_SECRET` via environment variable in production — never hardcode it
 - Set `DDL_AUTO=validate` in production
 - CORS origins are configured via `CORS_ORIGINS` env var
-
-## Resume Line
-> Engineered a full-stack clinic management system using **Spring Boot 3 + Spring Security + React + Tailwind CSS** with JWT auth, role-based access for 3 user types, EMR storage, automated prescription PDF generation, appointment conflict detection, and input validation. Deployed on **Railway + Vercel + PlanetScale** with GitHub Actions CI.
